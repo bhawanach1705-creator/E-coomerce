@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jdb banner</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-header {
+            background-color: white;
+            padding: 5px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            height: 100px; 
+
+        }
+
+        .main-header .logo-menu .logo img {
+            height: 42px;
+            margin-bottom: 26px;
+            margin-left: 28px;
+            margin-right: 25px;
+        }
+
+        .main-header .logo-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .main-header .logo-menu .menu ul {
+            display: flex;
+            list-style: none;
+            margin-left: 45px;
+            margin-bottom: 19px;
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        .menu ul li {
+            padding: 5px 20px;
+            !important font-weight: lighter;
+            margin-left: 10px;
+            margin-right: 10px;
+
+        }
+
+        .main-header .btns button {
+            padding: 15px 20px;
+            margin-right: 10px;
+            border-bottom: none;
+            border-radius: 25px;
+            background-color: rgb(71, 71, 185);
+            color: white;
+            font-weight: bold;
+            transition: all 1s;
+            font-size: large;
+            box-shadow: 0px 0px 10px 0px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+
+        }
+
+
+        .btns .login:hover {
+            background-color: rgb(226, 178, 20) !important;
+            transition: all 1.5s;
+
+        }
+
+
+
+        .main-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btns {
+            display: flex;
+        }
+
+
+
+        .main-header .logo-menu .menu .our {
+
+            border: 1px solid black;
+            border-radius: 5px;
+            padding-top: 5px;
+
+        }
+
+        .main-header .logo-menu .menu .intership-nav {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+
+        .main-header .logo-menu .menu .team {
+            margin-right: 20px;
+            margin-left: 8px;
+        }
+
+        .main-header .logo-menu .menu i {
+            color: black;
+            font-size: 12px;
+        }
+
+
+
+
+        .banner {
+            background: linear-gradient(135deg, #e8edfc 0%, #d6e4f7 50%, #eef2fb 100%);
+            background-size: cover;
+            height: 700px;
+            margin-top: 85px;
+            display: flex;
+        }
+
+        .banner .banner-text {
+            display: flex;
+            justify-content: left;
+            flex-direction: column;
+            align-items: flex-start;
+
+
+        }
+
+        .banner .banner-text .trusted-box p {
+            width: 110%;
+            height: 30px;
+            text-align: center;
+            font-weight: bold;
+            background-color: white;
+            color: rgb(43, 43, 180);
+            border-radius: 30px;
+            margin-top: 80px;
+            margin-left: 60px;
+            padding-top: 9px;
+            padding-bottom: 0px;
+
+        }
+
+        .banner .banner-text .heading1 h1 {
+            text-align: left;
+            color: black;
+            font-size: 65px;
+            font-weight: bolder;
+            margin-left: 60px;
+            text-align: left;
+            margin-top: 10px;
+
+        }
+
+        .banner .banner-text .heading1 .real {
+            color: rgb(74, 74, 175);
+        }
+
+        .trusted-box {
+            align-items: flex-start;
+            display: flex;
+            justify-content: left;
+        }
+
+        .banner .banner-text .heading1 p {
+            font-size: larger;
+            color: rgb(34, 34, 34);
+            text-align: justify;
+            margin-left: 60px;
+            font-weight: lighter;
+            margin-top: 18px;
+            word-spacing: 4px;
+            line-height: 28px;
+        }
+
+        .btns {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            margin-top: 20px;
+            margin-left: 49px;
+        }
+
+        .btns .apply button {
+            margin: 15px;
+            padding: 20px;
+            border: none;
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+            border-radius: 10px;
+            background-color: rgb(23, 65, 180);
+            color: white;
+        }
+
+        .btns .explore button {
+            margin: 15px;
+            padding: 18px;
+            border: none;
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid rgb(17, 68, 179);
+            color: rgb(17, 68, 179);
+        }
+
+        .tick {
+            display: flex;
+            font-size: large;
+            font-weight: lighter;
+            color: black;
+            gap: 10px;
+            margin-top: 18px;
+            margin-left: 50px;
+        }
+
+        .banner .white-box {
+            display: grid;
+            background-color: white;
+            height: 445px;
+            width: 40%;
+            border-radius: 20px;
+            margin-top: 120px;
+            margin-left: 140px;
+            margin-right: 15px;
+
+
+        }
+
+        .white-box .box1 {
+            background-color: #f7f9fc;
+            border-radius: 20px;
+            margin: 20px 20px;
+            height: 110px;
+
+        }
+
+        .white-box .box2 {
+            background-color: #f7f9fc;
+            border-radius: 20px;
+            height: 110px;
+            margin: 20px 20px;
+        }
+
+        .white-box .box3 {
+            background-color: #f7f9fc;
+            border-radius: 20px;
+            margin: 20px 20px;
+            height: 110px;
+        }
+
+        .white-box .box1 h1 {
+            color: rgb(71, 71, 185);
+            margin: 15px 18px;
+        }
+
+        .white-box .box2 h1 {
+            color: rgb(71, 71, 185);
+            margin: 15px 18px;
+        }
+
+        .white-box .box3 h1 {
+            color: rgb(71, 71, 185);
+            margin: 15px 18px;
+        }
+
+        .white-box .box1 p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: 18px;
+        }
+
+        .white-box .box2 p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: 18px;
+        }
+
+        .white-box .box3 p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: 5px;
+        }
+
+        .intership {
+            background-color: rgb(240, 240, 245);
+            height: 3600px;
+            padding-top: 60px;
+
+        }
+
+        .live-box {
+            background-color: white;
+            border-radius: 30px;
+            height: 180px;
+            width: 92%;
+            margin-left: 60px;
+            margin-right: 25px;
+            border: 1px grey;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+
+
+        }
+
+        .live-box .live h1 {
+            color: rgb(71, 71, 185);
+            margin-left: 100px;
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 60px;
+
+
+        }
+
+        .live-box .expert h1 {
+            color: rgb(71, 71, 185);
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 37px;
+        }
+
+        .live-box .flexible h1 {
+            color: rgb(71, 71, 185);
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 33px;
+        }
+
+        .live-box .career h1 {
+            color: rgb(71, 71, 185);
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 33px;
+        }
+
+        .live-box .live p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: 60px
+        }
+
+        .live-box .expert p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: px;
+            margin-right: 40px;
+
+        }
+
+        .live-box .career p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: 22px;
+            margin-right: 40px;
+
+        }
+
+        .live-box .flexible p {
+            color: rgb(122, 121, 121);
+            font-weight: normal;
+            font-size: large;
+            margin-left: 30px;
+            margin-right: 60px;
+
+        }
+
+        .inter {
+            background-color: white;
+            color: black;
+            margin-left: 60px;
+            margin-right: 22px;
+            width: 92%;
+            height: 260px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+
+        .inter h1 {
+            padding-top: 25px;
+            margin-left: 20px;
+            font-weight: bolder;
+        }
+
+        .btn {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .btn button {
+            padding: 15px;
+            font-size: large;
+            font-weight: normal;
+            text-align: left;
+            height: 65px;
+            margin: 22px auto;
+            width: 32%;
+            background-color: #ebeef7;
+            color: black;
+            border-radius: 12px;
+            border: none;
+        }
+
+
+        .intership .main-boxx {
+            display: flex;
+            margin-top: 40px;
+            justify-content: space-between;
+            height: auto;
+            min-height: 130px;
+            width: 50%;
+            background-color: white;
+            border-radius: 20px;
+            margin-left: 60px;
+            padding-bottom: 20px;
+        }
+
+        .main-boxx .vido-box h1 {
+            font-size: 35px;
+            margin: 20px 16px 12px 20px;
+            margin-left: 0px;
+            !important
+        }
+
+        .main-boxx .vido-box p {
+            margin-left: 15px;
+            font-size: larger;
+            padding-top: 10px;
+            margin-left: 38px;
+            margin-bottom: 10px;
+            line-height: 22px;
+            color: rgb(114, 113, 113);
+        }
+
+        .main-boxx .vido-box video {
+            height: 900px;
+            width: 95%;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            margin-left: 15px;
+            margin-right: 5px;
+            object-fit: cover;
+            display: block
+        }
+
+        .main-boxx .twobox {
+            display: block;
+
+        }
+
+        .main-boxx .twobox .join {
+            background-color: rgb(43, 43, 180);
+            height: 500px;
+            width: 90%;
+        }
+
+        /*Another page Web development*/
+
+
+        .ourp-box .fourbtn {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+
+        }
+
+        .ourp-box {
+            background-color: white;
+            border-radius: 20px;
+            height: 780px;
+            width: 92%;
+            text-align: center;
+            margin-left: 60px;
+            margin-right: 20px;
+            margin-top: 50px;
+
+
+        }
+
+        .ourp-box .h1 h1 {
+            font-weight: 700;
+            padding-top: 30px;
+            padding-bottom: 25px;
+        }
+
+        .ourp-box .web {
+            color: white;
+            background-color: rgb(77, 77, 179);
+            margin-right: 10px;
+            border: none;
+            border-radius: 10px;
+            padding: 14px 28px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .ourp-box .all-btn {
+            color: rgb(77, 77, 179);
+            margin-right: 10px;
+            background-color: #e8edfc;
+            border: none;
+            border-radius: 10px;
+            padding: 14px 28px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .web-deve {
+            padding-top: 30px;
+            text-align: left;
+            margin-left: 25px;
+
+        }
+
+        .web-deve p {
+            padding-top: 14px;
+            font-size: large;
+            font-weight: lighter;
+            color: rgb(80, 78, 78);
+            word-spacing: 54x;
+        }
+
+        .three-box {
+            display: flex;
+            padding-top: 40px;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin: 15px;
+            justify-content: space-between;
+        }
+
+        .onebox {
+            background-color: #f7f7fa;
+            border-radius: 15px;
+            padding: 23px 30px;
+            text-align: left;
+            width: 31%;
+            height: 280px;
+            margin-left: 4px;
+
+        }
+
+
+        .three-box .onebox h1 {
+            font-size: larger;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .onebox p {
+            color: rgb(65, 64, 64);
+        }
+
+        .onebox ul {
+
+            list-style: disc;
+            padding-left: 20px;
+            margin: 0;
+
+        }
+
+        .onebox ul li {
+            color: rgb(65, 64, 64);
+            padding-top: 4px;
+        }
+
+        .outcome {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 97%;
+            color: white;
+            height: 140px;
+            border-radius: 20px;
+            background-color: #4f16c9;
+            margin-top: 23px;
+        }
+
+        .outcome h1 {
+            text-align: left;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            margin-left: 20px;
+        }
+
+        .outcome p {
+            margin-left: 20px;
+            font-size: large;
+            text-align: left;
+        }
+
+        .access {
+            width: 92%;
+            height: 230px;
+            color: black;
+            background-color: #F4F4FC;
+            margin-left: 60px;
+            margin-right: 20px;
+            border-radius: 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .access h1 {
+            padding-top: 60px;
+            padding-bottom: 25px;
+            font-weight: bold;
+
+
+        }
+
+        .access p {
+            padding-bottom: 15px;
+            color: rgb(133, 132, 132);
+            font-size: larger;
+        }
+
+        .access button {
+            border-radius: 10px;
+            padding: 15px 35px;
+            border: none;
+            background-color: #4f16c9;
+            color: white;
+            font-weight: 700;
+        }
+
+        .map-form {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .map-form .map iframe {
+            margin-left: 60px;
+            height: 480px;
+            border-radius: 10px;
+            width: 650px;
+        }
+
+        .form {
+            height: 480px;
+            margin-left: 30px;
+            border-radius: 10px;
+            margin-right: 75px;
+            width: 52%;
+            background-color: whitesmoke;
+
+        }
+
+        .form h2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        .form label {
+            margin-left: 20px;
+            border-radius: 10px;
+            font-size: larger;
+            padding-bottom: 10px;
+
+        }
+
+        .form input {
+            width: 95%;
+            border: 1px solid rgb(212, 211, 211);
+
+            border-radius: 8px;
+            padding: 10px 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            margin-left: 20px;
+        }
+
+        .form select {
+
+            border-radius: 8px;
+            border: 1px solid rgb(212, 211, 211);
+            margin-left: 20px;
+            margin-top: 15px;
+            width: 95%;
+            padding: 10px 10px;
+        }
+
+        .form button {
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 95%;
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(71, 71, 185);
+            font-size: 17px;
+            font-weight: 500;
+            padding: 10px;
+
+        }
+
+        .gallery {
+            margin-top: 100px;
+            text-align: center;
+
+        }
+
+        .gallery h1 {
+            padding-bottom: 20px;
+        }
+
+        .gallery p {
+            font-size: larger;
+            font-weight: lighter;
+            color: rgb(92, 92, 92);
+            padding-bottom: 40px;
+
+        }
+
+        .footer {
+            background: linear-gradient(90deg, #3850b1 0%, #2e2470 40%, #241b4d 65%, #1a1625 100%);
+            color: #ffffff;
+            display: flex;
+            height: 500px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer .join img {
+            height: 80px;
+            margin-bottom: 10px;
+            margin-left: 38px;
+            background-color: transparent;
+            margin-right: 25px;
+            margin-top: 50px;
+            width: 48%;
+        }
+
+        .footer .join p {
+            margin-left: 50px;
+            color: rgb(222, 222, 222);
+            text-align: justify;
+            font-size: large;
+            word-spacing: 5px;
+            font-weight: lighter;
+            padding-bottom: 13px;
+
+        }
+
+        .footer .join .add {
+            color: white;
+
+        }
+
+        .footer .join a {
+            color: white;
+            padding-bottom: 10px;
+            margin-left: 50px;
+        }
+
+        .footer .join i {
+            color: red;
+        }
+
+        .footer .join .mail i {
+            color: white;
+            padding-top: 10px;
+
+        }
+
+        .footer .join .mail a {
+            color: white;
+            padding-top: 10px;
+            margin-left: 50px;
+        }
+
+        .footer .links h3 {
+
+            color: white;
+            margin-top: 70px;
+            padding-bottom: 10px;
+            margin-right: 30px;
+            font-size: larger;
+            font-weight: lighter;
+
+        }
+
+        .footer .links p {
+            padding-bottom: 5px;
+            color: rgb(200, 199, 199);
+            font-weight: lighter;
+            font-size: larger;
+            padding-top: 5px;
+        }
+
+        .footer .company h3 {
+            color: white;
+            margin-top: 70px;
+            padding-bottom: 10px;
+            margin-right: 30px;
+            font-size: larger;
+            font-weight: lighter;
+
+        }
+
+        .footer .company p {
+            padding-bottom: 5px;
+            color: rgb(200, 199, 199);
+            font-weight: lighter;
+            font-size: larger;
+            padding-top: 5px;
+        }
+
+        .footer .touch h3 {
+            color: white;
+            margin-top: 70px;
+            padding-bottom: 10px;
+            margin-right: 30px;
+            font-size: larger;
+            font-weight: lighter;
+        }
+
+        .footer .touch p {
+            padding-bottom: 5px;
+            color: rgb(200, 199, 199);
+            font-weight: lighter;
+            font-size: larger;
+            padding-top: 5px;
+            margin-right: 10px;
+        }
+
+        .footer .logos i {
+            margin-top: 30px;
+            font-size: larger;
+        }
+
+        .video-photo {
+            display: flex;
+            margin-bottom: 40px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+
+        .video-photo .video {
+            border-radius: 10px;
+            height: 520px;
+            margin-left: 48px;
+            width: 30%;
+            background-color: white;
+        }
+
+        .video-photo .text {
+            border-radius: 10px;
+            padding-top: 18px;
+            color: white;
+            height: 120px;
+            background-color: #3850b1;
+
+        }
+
+        .video-photo .text h2 {
+            margin-left: 15px;
+            font-weight: 38px;
+            margin-bottom: 10px;
+        }
+
+        .video-photo .text p {
+            margin-left: 15px;
+            font-size: large;
+            word-spacing: 6px;
+            object-fit: cover;
+        }
+
+
+        .wtsp i {
+            color: #25D366;
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            z-index: 999;
+            height: 100px;
+            width: 100px;
+            font-size: 48px;
+        }
+
+        .call i {
+            color: rgb(187, 61, 61);
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+            height: 100px;
+            width: 100px;
+            font-size: 48px;
+        }
+        .enroll{
+            position: relative;
+        }
+        .enroll .enroll-now{
+            position: fixed;
+            top: 110px;
+            background-color: #ebeef7;
+            font-weight: bolder;
+            right: 15px;
+            border-radius: 10px;
+            z-index: 10;
+            color: rgb(51, 69, 161);
+            border:2px solid black;
+            padding: 20px 20px;
+        }
+        .side{
+            position: relative;
+        }
+        .side .side-text{
+            position: fixed;
+            text-align: center;
+            top: 200px;
+            border-radius: 8px 0px 0px 8px;
+            padding: 20px 15px;
+            right: 0;
+            color: white;
+            background-color: rgb(21, 67, 128);
+        }
+    </style>
+
+    <!-- ...................header start ................................................. -->
+ 
+   
+   
+   
+    <div class="main-header">
+        <div class="logo-menu">
+            <div class="logo">
+                <img src="./images (1).jfif" />
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li class="our">Our Programs<i class="fa-sharp fa-solid fa-caret-down"></i></li>
+                    <li class="internship-nav">Internship & Certificate<i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </li>
+                    <li>Blogs</li>
+                    <li>Notes</li>
+                    <li>Contact</li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="btns">
+            <button class="login">Login</button>
+        </div>
+    </div>
+
+
+<div class="enroll">
+     <button class="enroll-now">Enroll Now </button> 
+</div>
+
+<div class="side">
+    <h3 class="side-text">A<br>i<br>u<br>m<br>n<br>i</h3>
+</div>
+
+    <!--.....................Header End .......................................-->
+    <div class="wtsp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <div class="call">
+        <i class="fa-sharp fa-solid fa-phone"></i>
+    </div>
+
+
+    <div class="banner">
+        <div class="banner-text">
+            <div class="trusted-box">
+                <div class="trusted">
+                    <p># Trusted Intership Institue Jaipur</p>
+                </div>
+            </div>
+            <div class="heading1">
+                <h1>Start Your Career With <br><span class="real">Real Internship<br> Training</span></h1>
+                <p>Learn practical skills with live projects, expert trainers, internship<br> certificate and placement
+                    guidance for students, freshers and job<br> seekers.</p>
+            </div>
+
+            <div class="btns">
+                <div class="apply">
+                    <button>Apply Internship</button>
+                </div>
+
+                <div class="explore">
+                    <button class="course"> Explore Courses </button>
+
+
+                </div>
+            </div>
+            <div class="tick">
+                <span><i class="fa-solid fa-check"></i> Live Projects</span>
+                <span><i class="fa-solid fa-check"></i> Certificate</span>
+                <span><i class="fa-solid fa-check"></i> Placement Help</span>
+            </div>
+
+
+        </div>
+
+        <div class="white-box">
+            <div class="box1">
+                <h1>15K+</h1>
+                <p>Students Trained</p>
+            </div>
+
+            <div class="box2">
+                <h1>14+ Years</h1>
+                <p>Teaching Experience</p>
+            </div>
+
+            <div class="box3">
+                <h1>100%</dh1>
+                    <p>practical Learning</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <div class="intership">
+        <div class="live-box">
+            <div class="live">
+                <h1>Live</h1><br>
+                <p>Project Based Learning</p>
+            </div>
+
+
+            <div class="expert">
+                <h1>Expert</h1><br>
+                <p>Industry Mentors</p>
+
+            </div>
+
+            <div class="career">
+                <h1>Career</h1><br>
+                <p>Resume Support</p>
+            </div>
+
+            <div class="flexible">
+                <h1>Flexible </h1><br>
+                <p>Online / Offline Batches</p>
+            </div>
+
+        </div>
+
+        <div class="inter">
+            <h1>Why Choose Our Internship?</h1>
+            <div class="btn">
+                <button>✔ Live Projects Experience</button>
+                <button>✔ Internship Certificate</button>
+                <button>✔ Expert Trainers</button>
+                <button style="margin-top: -10px;">✔ Resume Support</button>
+                <button style="margin-top: -10px;">✔ Interview Preparation</button>
+                <button style="margin-top: -10px;">✔ Affordable Fees</button>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="main-boxx">
+            <div class="vido-box">
+                <h1><i class="far fa-microphone-stand"></i>🎤 Student Testimonials</h1>
+                <p>Hear directly from our students who completed internships and improved their technical skills,
+                    confidence and career opportunities with JDB Infotech.</p>
+
+                <video controls>
+                    <source src="https://jdbinfotech.co.in/assets/student_testomonial_video-BJVmEY2w.mp4"
+                        type="video/mp4">
+
+
+                </video>
+                <p style="font-size: medium; padding-top: 10px;">Real student feedback • Practical learning • Career
+                    growth</p>
+
+            </div>
+        </div>
+
+
+        <!--.........................web developemnt-->
+
+        <div class="ourp-box">
+
+            <div class="h1">
+                <h1>Our Top Internship Programs</h1>
+
+                <div class="fourbtn"></div>
+                <button class="web">Web Development</button>
+                <button class="all-btn">MERN Stack</button>
+                <button class="all-btn">APP Development</button>
+                <button class="all-btn">Digital Marketing</button>
+            </div>
+
+
+
+            <div class="web-deve">
+
+                <h1> Web Development</h1>
+                <p>Learn complete website development from basic to advanced with real live projects and responsive
+                    design.</p>
+
+            </div>
+
+            <div class="three-box">
+                <div class="onebox">
+                    <h1>⏳ Duration</h1>
+                    <p>45 Days</p>
+                </div>
+                <div class="onebox">
+                    <h1><i class="fa-solid fa-screwdriver-wrench"></i> Technologies</h1>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Bootstrap</li>
+                        <li>API Integration</li>
+                    </ul>
+                </div>
+                <div class="onebox">
+                    <h1>💡 Projects</h1>
+                    <ul>
+                        <li>Portfolio Website</li>
+                        <li>Business Website</li>
+                        <li>Blog Website</li>
+                        <li>Admin Panel</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="outcome">
+                <h1>Career Outcome</h1>
+                <p>Students can apply for Frontend Developer and Web Designer roles.</p>
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="access">
+            <h1>Limited Seats Available</h1>
+            <p>Join our upcoming internship batch and start building your future.</p>
+            <button>Book Your Seat</button>
+        </div>
+        <!--.............................gallery.............................................................-->
+        <div class="gallery">
+            <h1>Our Gallery & Cousre Demo</h1>
+            <p>Explore our classrooms, student activities, placements, live projects, seminars and watch our demo
+                course.</p>
+        </div>
+
+
+        
+
+
+        <!--.............................map and form............................................-->
+
+
+        <div class="map-form">
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.679189588851!2d75.73371447474531!3d26.945383058687128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa71ea5fb9d3b1c75%3A0x5705b237e98201e4!2sJDB%20Infotech%20-%20Web%20Development%20%26%20Digital%20Marketing%20Institute!5e0!3m2!1sen!2sin!4v1790132047536!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin" width="100%" height="900px">
+
+                </iframe>
+
+            </div>
+            <div class="form">
+                <h2>Enroll Now</h2>
+
+                <label>Full Name</label><br>
+                <input type="text" placeholder="Enter full name">
+                <br>
+
+                <label>Mobile Number</label><br>
+                <input type="text" placeholder="Enter Mobile Number">
+                <br>
+
+                <label>Email Address</label><br>
+                <input type="Email" placeholder="Enter Email">
+                <br>
+
+                <label>Choose Course</label><br>
+                <select>
+                    <option>--Select Course--</option>
+                    <option>Web Development</option>
+                    <option>MERN Stack</option>
+                    <option>App Development</option>
+                    <option>Digital Marketing</option>
+                </select>
+                <br>
+
+                <button type="submit" class="submit-btn">Submit</button>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!--........................................footer........................................-->
+
+    <div class="footer">
+
+        <div class="join">
+            <img src="./logo-v96l_zms.png">
+
+            <p class="jdb">Join JDB Infotech to upgrade your IT skills<br> with expert-led training and career-ready
+                <br>programs.
+            </p>
+            <p class="add">📍305, 3rd floorPink City2, Joshi Marg, <br>Jhotwara, Jaipur, Rajasthan 302012</p>
+            <a href="tel:+070737 34854"> <i class="fa-sharp fa-solid fa-phone"></i> 070737 34854</a><br>
+
+            <a href="mailt: info@jdbinfotech.co.in"><i class="fa-thin fa-envelope"></i>📩 info@jdbinfotech.co.in</a>
+
+        </div>
+
+
+
+        <div class="links">
+            <h3>Usefull Links</h3>
+            <p>our Values</p>
+            <p>Courses</p>
+            <p>our Services</p>
+            <p>Become a parter</p>
+            <p>Work a Future Learn</p>
+            <p>Blogs</p>
+            <p>Internship Program</p>
+
+        </div>
+
+
+
+        <div class="company">
+            <h3>Our company</h3>
+            <p>Contact us</p>
+            <p>Become Teacher</p>
+            <p>Blog</p>
+            <p>Instructor</p>
+            <p>Events</p>
+
+        </div>
+
+        <div class="touch">
+
+            <h3>Get in Touch</h3>
+            <p>JDB Infotech is a leading institute offering <br>high-quality IT training, software<br> development
+                courses, and career-focused<br> programs</p>
+
+
+
+            <div class="logos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
